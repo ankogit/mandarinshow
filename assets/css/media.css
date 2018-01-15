@@ -1,0 +1,159 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.realmWhiter .bg_Whiter {
+    height: 150px;
+	}
+	.finn {
+        left: 315px;
+    }
+    .raduga {
+        left: -1100px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.subscribe .bg_mailbox {
+		height: 300px;
+	}
+	section.faq #arrow.block::after {
+    right: -50px;
+	}
+	.realmWhiter .bg_Whiter {
+    	height: 500px;
+        background-size: cover;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	header canvas {
+		display: none;
+	}
+	.top_menu {
+    display: none;
+	}
+	#carbonads {
+    display: none;
+  	}
+  	.realmWhiter .bg_Whiter {
+    	height: 300px;
+	}
+	section.mainer {
+		min-height: 400px;
+	}
+	section.faq .one {
+	    border-radius: 0px 0 0 0px;
+	}
+	section.faq .three {
+	    border-radius: 0 0px 0px 0;
+	}
+	section.faq #arrow.block::after {
+	    content: "";
+	    display: none;
+	}
+	footer {
+		text-align: center;
+	}
+	.finn {
+        left: 55px;
+    }
+    .raduga {
+        left: -1310px;
+    }
+	.footer_logo {
+		display: none;
+	}
+	.bg_noise:before {
+		    display: none;
+	}
+
+
+
+    .user_inform .flex_inf {
+        display: block;
+        padding: 40px;
+    }
+
+
+    /*MAINEER*/
+    .maineer div.center_block {
+        width: 100%;
+    }
+    .maineer .center_block .left_side {
+        width: 0%;
+    }
+    .maineer .center_block .right_side {
+        width: 100%;
+    }
+
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.subscribe .bg_mailbox {
+		height: 120px;
+	}
+	.realmWhiter .bg_Whiter {
+    	height: 200px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

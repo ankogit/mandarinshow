@@ -1,0 +1,79 @@
+html.js .loader {
+  background: none repeat scroll 0 0 #ffffff;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1999;
+}
+/*html.js .loader_inner {
+  background-image: url("../img/preloader.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #fff;
+  height: 60px;
+  width: 60px;
+  margin-top: -30px;
+  margin-left: -30px;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+}
+*/
+
+.preloader {
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  border: 0.4rem solid #2980B9;
+  border-radius: 100%;
+}
+
+.preloader:before,
+.preloader:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -0.2rem 0 0 -0.2rem;
+  border-bottom: 0.4rem solid #2980B9;
+  border-radius: 0.6rem;
+  -webkit-transform-origin: 0.2rem center;
+}
+
+.preloader:before {
+/* hour hand */
+  width: 30%;
+  -webkit-animation: hour 10s linear infinite;
+}
+
+.preloader:after {
+/* minute hand */
+  width: 40%;
+  background-color: #2980B9;
+  -webkit-animation: minute 1s linear infinite;
+}
+
+@-webkit-keyframes hour {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes minute {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+/* for demo purposes only — not required */
+.preloader {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}

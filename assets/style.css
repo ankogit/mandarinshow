@@ -1,0 +1,314 @@
+* {margin: 0; padding: 0}
+
+
+a {text-decoration: none}
+
+
+
+p {
+	margin: 15px 0;
+}
+
+
+
+
+
+
+
+body, button, input[type=text], input[type=password], h1, h2, textarea {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+
+h1 {
+	color:#576369;
+	font-size: 20px;
+
+}
+
+
+form button {
+	background: #34C0E2;
+	color: #fff !important;
+	border: 1px solid #34C0E2;
+	padding: 8px;
+	border-radius: 8px;
+}
+button.submit {
+	background: #34C0E2;
+	color: #fff !important;
+	border: 1px solid #34C0E2;
+	padding: 8px;
+	border-radius: 8px;
+	margin-top: 10px;
+}
+button.submit:hover {
+	cursor:pointer;
+	opacity: 0.8;
+}
+button.submit:active {
+	background: #1bb0d4;
+	color: #fff !important;
+	border: 1px solid #1bb0d4;
+}
+button.submit:focus {
+	outline: none;
+}
+button:hover {
+	cursor:pointer;
+	opacity: 0.8;
+}
+
+
+input[type=text], input[type=password], textarea {
+	padding: 8px;
+	border: 1px solid #EEEFF2;
+	border-radius: 8px;
+	color: #ADB6BA;
+	width: 300px;
+	outline: none;
+}
+textarea {
+	height: 250px;
+	resize: none;
+}
+
+
+.wrapper, .content, body, html {
+	height: 100%;
+}
+.wrapper {
+	min-height: 100%;
+    height: auto !important;
+}
+
+
+
+.wrapper {
+	display: flex;
+}
+
+
+
+.content {
+	flex: 1;
+	background: #FCFCFD;
+}
+
+
+.block {
+	margin: 40px;
+	padding: 20px;
+	background: #fff;
+	border: 1px solid #EEEFF2;
+
+
+}
+
+
+
+.menu {
+	width: 200px;
+	background: #464E78;
+}
+
+
+.menu p {
+	display: block; 
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+.menu span {
+	color: #e74c3c;
+	font-size: 10px;
+}
+.menu a {
+	display: block; 
+	color: #fff;
+	padding: 10px 35px;
+	text-transform: uppercase;
+
+}
+.menu a:hover {
+	background: #1b1e2f;
+	color: #eee;
+	text-decoration: none;
+}
+
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width:auto;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+#load_p {
+	background-color: #1E8BC3;
+	border-radius: 0;
+	height: 60px;
+	text-transform: uppercase;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 30%;
+	max-width: 400px;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+}
+
+#loadingbar {
+	margin: 50px;
+	display: none;
+	margin-left: auto;
+	margin-right: auto;
+	width: 62px;
+	height: 20px;
+	background-image: url('img/loading.gif');
+}
+.reviews {
+
+	background: #F1F6FC;
+	color: #000;
+	padding: 15px;
+	border-radius: 10px;
+	margin: 10px 0;
+}
+
+
+.reviews span {
+	display: block;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+.unvisit {
+	background-color: #ffe4e4 !important;
+}
+.users {
+	background-color: #eee;
+	color: #000;
+	padding: 15px;
+	border-radius: 10px;
+	margin-top: 200px;
+	width: auto;
+	display: block;
+}
+.user {
+	padding: 5px 0;
+	color: #2c3e50;
+}
+.u_avatar {
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+}
+.u_avatar img {
+	width: 100%;
+	height: 100%;
+	border-radius: 100px;
+}
+.info_user {
+	display: block;
+	width: 50%;
+	float: left;
+}
+.info_avatar_user {
+	display: block;
+	width: 50%;
+	float: right;
+}
+.delblog {
+	float: right;
+}
+
+.MessageBlock {
+	background-color: #2c3e50;
+	color: #ecf0f1;
+	padding:20px 0;
+}
+
+.MessageBlock b{
+	color: #e74c3c;
+}
+.navigator {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.navigator a {
+    border: 1px solid #dadada;
+    display: inline-block;
+    padding: 1rem 1.6rem;
+    margin: 2px;
+    text-decoration: none;
+    background-color: rgb(220, 220, 220);
+    color: #000;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.navigator a:hover {
+    background-color: #f24e30;
+    color: #000;
+    text-decoration: none;
+}
+.navigator .active {
+    background-color: #f24e30;
+}
+.navigator p {
+    display: inline-block;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    background: rgba(220,220,220,0.4);
+    color: #000;
+}
+.unveiw {
+    background-color: #c9c9c3;
+}
+.text_error {
+    color: #f24e30;
+}
+.clip {
+    width: 40%;
+    overflow: hidden;
+    white-space: nowrap; 
+    -o-text-overflow: ellipsis; 
+    text-overflow: ellipsis; 
+    border: 1px solid red;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:768px){.container{width:auto !important;}}@media (min-width:992px){.container{width:auto !important;}}@media (min-width:1200px){.container{width:auto !important;}}
